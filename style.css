@@ -1,0 +1,17 @@
+/* id selector */
+#title{color:coral; text-transform: uppercase;} 
+/* class selector */
+.one{color:crimson; font-size: 48px;}
+.two{color:darkgreen}
+.three{color:darkblue}
+/* desending combinator */
+.two a{color:rgb(59, 1, 59)}
+/* chain */
+.best,.three{font-size: 48px;}
+/* type selector */
+h3{text-align: center;}
+/* combining to classes */
+.best.yummy{background-color: hotpink; }
+/* inheritance */
+h2{background-color: black; color:green}
+.ok{background-color: gold; color:yellow}
